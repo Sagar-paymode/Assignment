@@ -1,0 +1,322 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.first {
+    width: 100%;
+    height: 950PX;
+    background-image: url('tour.jpg');
+    box-sizing: border-box;
+    background-size: cover;
+    padding-left: 200px;
+    padding-top: 36px;
+
+
+}
+
+.dir h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.navbar2 {
+    list-style: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    text-align: center;
+    padding-top: 13px;
+}
+ .navbar .li{
+    color: white;
+}
+.navbar2 .list{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 12px 12px;
+    margin-top: -15px;
+}.navbar .li:hover{
+    color: white;
+}
+
+.dir {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dir li {
+    padding-right: 40px;
+}
+
+.About {
+    opacity: 0.5;
+}
+.us{
+    width: 100%;
+    text-align: center;
+  
+}
+.us .abt{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 266PX;
+    margin-right: 219px;
+   
+}
+.us h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 60px;
+    margin-left: -178px;
+    margin-top: 1px;
+
+}
+.us .abt li{
+    padding-right: 11px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.us .abt .abt1{
+    opacity: 0.6;
+}
+/**********fORM**********/
+
+.second .find{
+    width: 288PX;
+    height: 510px;
+    background-color: #f8faff!important;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #e6e6e6;
+    /* MARGIN-RIGHT: 88PX;*/
+}
+.second .find p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.second .find  .form1 {
+    height: 37px;
+    width: 199px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.second.find.form1 input{
+    padding-left: 20px;
+}
+.second .find .form2{
+    width: 225px;
+    height: 44px;
+
+}
+.second .find .range{
+    font-size: 16px;
+    margin-top: -8px;
+
+}
+.second .find .form2{
+    opacity: 0.7;
+}
+.range1 {
+    position: relative;
+    width: 222px;
+    margin: 0 auto 20px;
+    height: 35px;
+    text-align: center;
+    margin-left: 13px;
+    margin-top: -16px;
+
+}
+
+.range1 input {
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 100%;
+    outline: none;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+   
+}
+
+.range1 input::-webkit-slider-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 1;
+    outline: 0;
+    height: 24px;
+    widows: 24px;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid black;
+    -webkit-appearance: none;
+}
+.second button{
+    background: #f85959;
+    border: 1px solid #f85959;
+    color: #fff;
+    width: 217px;
+    height: 54px;
+    margin-left: 13px;
+    font-size: 18px;
+
+
+}
+*
+/*************hotel************/
+.hotel{
+    display: inline-flex;
+}
+.ital {
+
+    background-image: url(italy.jpg);
+    height: 231px;
+    width: 237px;
+    background-size: cover;
+    background-position: -1px 0px;
+
+}
+
+.hotel h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    /* padding-left: 20px; */
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.doll {
+    color: #2f89fc;
+    padding-left: 58px;
+}
+
+.star i {
+    font-size: 9px;
+    padding-right: 11px;
+    color: #f85959;
+
+}
+
+.star {
+    padding-left: 10px;
+}
+
+.rate {
+    padding-left: 15px;
+    color: black;
+    opacity: 0.7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hotel1 {
+    width: 236px;
+    height: 510px;
+    background-color: none;
+    border: 1px solid #e6e6e6;
+    margin-left: 30px;
+
+}
+
+.night p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+    opacity: 0.6;
+    line-height: 1;
+    line-height: 1.4;
+
+}
+
+.day {
+    font-size: 17px;
+    opacity: 1;
+}
+
+.ca i {
+    font-size: 20px;
+    padding-right: 5px;
+    margin-left: 6px;
+
+}
+
+.ca p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+}
+
+
+.ca button {
+    background-color: #8bc34a;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: white;
+    margin-left: 11px;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 69px;
+    height: 25px
+}
+
+.night hr {
+    width: 161px;
+}
+
+.ital2 {
+    background-image: url('usa.jpg');
+    background-size: cover;
+    background-position: -101px -4px;
+}
+
+.ital3 {
+    background-image: url('uk.jpg');
+    background-size: cover;
+    background-position: 0px -82px;
+
+}
+
+.ital4 {
+    background-image: url('lion.jpg');
+    background-size: cover;
+    background-position: -37px 0px;
+}
+
+.ital5 {
+    background-image: url('Aus.jpg');
+    background-size: cover;
+    background-position: -37px 0px;
+}
+.ca1 button{
+    margin-left: 45px;
+}
+.ca1{
+    padding-top: 20px;
+}
+.second{
+    display: inline-flex;
+    justify-content:space-between ;
+    margin-top: 84px;
+    margin-left: 200px;
+}
